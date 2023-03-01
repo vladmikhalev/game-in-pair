@@ -1,0 +1,82 @@
+.card {
+  display: flex;
+  height: 170px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(13, 53, 147);
+  border: 6px solid gray;
+  color: transparent;
+  font-size: 200%;
+  font-weight: bold;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, transform 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.card-2x2 {
+  min-width: 33%;
+}
+.card-4x4 {
+  min-width: 20%;
+}
+.card-6x6 {
+  min-width: 15%;
+}
+.card-8x8 {
+  min-width: 11%;
+}
+.card-10x10 {
+  min-width: 9%;
+}
+
+.card-open {
+  color: white;
+  background-color: rgb(114, 182, 245);
+
+
+}
+
+.card-success {
+  color: rgb(41, 40, 40);
+  background-color: rgb(12, 124, 12);
+  transform: scale(0.95);
+}
+
+
+
+.list-group-item+.list-group-item {
+  border-top-width: 6px;
+}
+
+.list-group-item {
+  padding: 0;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: block;
+  margin: 0 auto;
+}
+
+.timer {
+  display: block;
+  width: 80px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 200%;
+  color: rgb(196, 191, 191);
+  background-color: rgb(13, 53, 147);
+  border: 4px solid gray;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+}
